@@ -9,7 +9,9 @@
     justify-content: space-between;
     align-items: center;
     gap: 20px;
-
+    box-sizing: border-box;
+    
+    
 
 }
 .HeaderLogo
@@ -287,10 +289,18 @@ background-color:rgba(97, 97, 97, 0.577);
     padding-left: 20px;
     padding-right: 20px;
     height: 55px;
-   
+   gap: 5px;
    
 }
+.HeaderButtons
+{
+display: none;
+}
+.Headerfirstwrapper
+{
 
+    gap: 0px;
+}
 .HeaderLogoMobile
 {
     display: block;
@@ -342,7 +352,16 @@ max-width:640px;
 {
     gap: 5px;
 }
-
+.Headerlevel
+{
+    position: absolute;
+    top: 60px;
+    right: 10px;
+     opacity: 0;
+     visibility: hidden;
+    transition: all 0.6s ease-in-out;
+    pointer-events: none;
+}
 
 .Headersearchicon
 {
@@ -366,6 +385,7 @@ display: none;
     box-sizing: border-box;
   
 }
+
 .Searchinputtwo
 {
     
@@ -405,4 +425,13 @@ display: none;
    
 }
 
+}
+
+@media (max-width: 350px) {
+
+    .pointwrapper
+    {
+       display: none;
+       pointer-events: none;
+    }
 }

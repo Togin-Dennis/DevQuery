@@ -94,3 +94,10 @@ width: 30px;
 }
 }
 
+@media (max-width: 350px) {
+.welcomeicon
+{
+display: none;
+}
+
+}
