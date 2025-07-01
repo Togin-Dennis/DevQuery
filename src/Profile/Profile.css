@@ -222,8 +222,9 @@
 
 
 .profilemaindiv {
-margin: 20px;
-margin-top: 30px;
+    margin-left: 20px;
+    margin-top: 0;
+
 }
 
 .profileinfodiv {
@@ -248,6 +249,7 @@ margin-top: 30px;
   color: rgb(209, 208, 208);
 }
 .profilepicandnamediv {
+  padding-top: 30px;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -288,6 +290,7 @@ margin-top: 30px;
 
 .profilemaindiv {
 margin: 20px;
+ margin-top: 0;
 
 }
 .profileinfodiv {

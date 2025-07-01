@@ -72,6 +72,8 @@
     align-items: center;
     justify-content: space-between;
      width: 100%;
+     flex-wrap: wrap;
+     gap: 10px;
  
 }
 .Tagswrapper
@@ -91,6 +93,8 @@
 }
 .Uploaddetails
 {
+  
+
     align-items: center;
     display: flex;
     gap: 10px;
