@@ -234,11 +234,20 @@ padding-right: 15px;
     margin-right: 10px;
     border-radius: 7px;
 }
+
+.HeaderLoginAndsignup
+{
+    display: flex;
+    height: 60%;  
+      white-space: nowrap;
+}
+
 .signupheader
 {
     background-color: rgb(34, 103, 182);
     border: 1px solid rgb(34, 103, 182) ;
     color: white;
+  
 }
 
 .HeaderLogoMobile
