@@ -1,0 +1,87 @@
+
+
+
+
+.ansmaindivwrapper
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.anspoint
+{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;    
+gap: 6px;
+color: rgba(255, 255, 255, 0.749);
+}
+
+.pointtext
+{
+    font-size: 22px;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+}
+.ANSPointAndTikdiv
+{
+margin-top: 105px;
+padding-right: 25px;
+color: rgba(128, 128, 128, 0.484);
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 40px;
+}
+
+.pointicon
+{
+    color: rgba(255, 255, 255, 0.449);
+    border-radius: 100px;
+}
+.selectedpoint
+{
+      cursor: pointer;
+    color: rgb(167, 119, 57);
+}
+
+.pointicon:hover
+{
+    cursor: pointer;
+    color: rgb(167, 119, 57);
+}
+
+.tikicon
+{
+ cursor: pointer;
+}
+.tikiconsolved
+{
+    color: green;
+    cursor: pointer;
+}
+
+.ansviewansdate
+{
+    border: none;
+    padding: 0;
+}
+
+.ansviewuserdetailwrapper
+{
+    display: flex;
+    align-items: center;
+    
+    margin-top: 40px;
+    padding-bottom: 30px;
+    justify-content: space-between;
+    border-bottom:  1px solid rgba(128, 128, 128, 0.336);
+}
+.fullansdiv
+{
+    width: 100%;
+}
+

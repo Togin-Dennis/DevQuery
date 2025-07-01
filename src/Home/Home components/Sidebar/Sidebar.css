@@ -1,0 +1,60 @@
+
+.Sidebarmaindiv
+{
+    padding-top: 30px;
+    flex: 0.5;
+    border-right:  1px solid rgba(128, 128, 128, 0.336);
+    height: 100vh;
+    color: hsl(180, 1%, 83%);
+}
+
+.sidebarpages
+{
+    padding-left:7.5px;
+    padding-top: 7.5px;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.siderbarpagename
+{
+    padding: 0;
+    margin: 0;
+    font-weight:400 ;
+    font-size: 13.4px;
+
+}
+.sidebarpages:hover
+{
+    background-color: rgba(128, 128, 128, 0.086);
+
+    cursor: pointer;
+    color:rgb(255, 254, 254) ;
+        border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.sidebarselected
+{
+ background-color: rgba(128, 128, 128, 0.273);
+ color:rgb(255, 254, 254) ;
+     border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+ 
+}
+.sidebarselected:hover
+{
+   background-color:rgba(128, 128, 128, 0.273)
+}
+
+
+
+@media (max-width: 640px) {
+
+.Sidebarmaindiv
+{
+display: none;
+}
+}

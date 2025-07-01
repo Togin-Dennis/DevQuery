@@ -1,0 +1,130 @@
+.Usersmaindiv
+{
+    display: flex;
+  margin-left: min(132.5px, calc((100vw - 1080px) / 2 + 20px));
+  margin-right: min(140px, calc((100vw - 1080px) / 2 + 20px));
+    color: hsl(180, 1%, 83%);
+    overflow: hidden;
+    height: 100vh;
+}
+
+.Userscontentdiv
+{
+    flex: 3.23;
+    padding: 35px;
+  
+}
+.Usersheading
+{
+    font-size: 27px;
+    margin: 0;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.888);
+}
+.Searchuser
+{
+    margin-top: 30px;
+    width: 200px;
+    margin-bottom: 50px;
+}
+.Userboxgrid
+{
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive grid */
+    gap: 20px; /* spacing between boxes */
+    grid-auto-rows: min-content;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+
+}
+.Userboxgrid::-webkit-scrollbar
+{
+    display: none;
+}
+.Userbox
+{
+    background-color: rgba(186, 186, 186, 0.088);
+    width: 100%; /* Take full grid cell width */
+    box-sizing: border-box;
+    height: min-content;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.Userbox:hover
+{
+ background-color: rgb(82, 69, 45);
+}
+.Useremail
+{
+    margin: 0;
+    font-size: 15px;
+    color:cornflowerblue;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+background-color: rgba(111, 88, 46, 0.389);
+
+padding: 5px;
+padding-left: 15px;
+padding-right: 15px;
+border-radius: 5px;
+}
+.countdiv
+{
+    display: flex;
+    gap: 15px;
+}
+.qnCount
+{
+    margin: 0;
+    margin-top: 10px;
+    font-size: 11px;
+    background-color: rgb(88, 167, 141);
+color: black;
+padding: 5px;
+padding-left: 15px;
+padding-right: 15px;
+
+border-radius: 5px;
+}
+.Counthighlight
+{
+    font-size: 14px;
+    color:rgb(0, 0, 0) ;
+    font-weight: 600;
+}
+
+@media (max-width: 640px) {
+
+.Usersmaindiv
+{
+margin: 20px;
+}
+.Userscontentdiv
+{
+
+    padding: 0px;
+  
+}
+
+
+}
+
+
+@media (min-width: 641px) and (max-width: 1080px) {
+
+.Usersmaindiv
+{
+margin: 20px;
+}
+.Userscontentdiv
+{
+    flex: 2.2;
+  
+}
+
+}

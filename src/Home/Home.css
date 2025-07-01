@@ -1,0 +1,46 @@
+.Homemaindiv
+{
+  margin-left: min(132.5px, calc((100vw - 1080px) / 2 + 20px));
+  margin-right: min(140px, calc((100vw - 1080px) / 2 + 20px));
+
+    display: flex; 
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+
+@media (max-width: 640px) {
+
+.Homemaindiv
+{
+    margin: 20px;
+    display: block;
+    height: 100vh;
+    overflow-y: auto;
+    
+
+    
+}
+
+.Homemaindiv::-webkit-scrollbar
+{
+    display: none;
+}
+
+
+}
+
+
+@media (min-width: 641px) and (max-width: 1080px) {
+
+.Homemaindiv
+{
+    margin: 20px;
+    display: flex;
+    height: 100vh;
+   
+}
+
+
+
+}

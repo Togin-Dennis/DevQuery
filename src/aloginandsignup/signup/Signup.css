@@ -1,0 +1,71 @@
+.signupmaindiv
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 50px;
+    overflow-y: auto;
+    padding-bottom: 300px;
+  
+    
+}
+.Signupform
+{
+    width: 470px;
+    padding: 40px;
+     background-color: hsl(210, 4%, 21%);
+    
+}
+.signupheading
+{
+    padding: 0;
+    margin: 0;
+    padding-bottom: 20px;
+}
+.signupinput
+{
+    width: 96.5%;
+    margin-bottom: 2px;
+}
+.signupbutton
+{
+    width: 100%;
+    margin-top: 50px;
+}
+.Signupbuttons
+{
+    gap: 0px;
+}
+.Alreadyacc
+{
+    color: rgba(91, 168, 255, 0.645);
+    background-color: transparent;
+}
+.Alreadyacc:hover
+{
+     background-color: transparent;
+     color: rgba(91, 168, 255, 0.988);
+}
+.notfound
+{
+    color:  rgb(255, 167, 167);
+    padding: 5px;
+    height: 30px;
+}
+.incorrrect
+{
+      color:  rgb(255, 167, 167);
+}
+.alreadyexist
+{
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.extrapadding
+{
+    margin-top: 40px;
+}

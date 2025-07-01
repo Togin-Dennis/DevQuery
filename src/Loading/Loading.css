@@ -1,0 +1,51 @@
+.loading-container {
+  height: 100vh;
+  width: 100vw;
+  background-color:  hsl(210, 3%, 15%);
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.loading-logo {
+  width: 170px;
+  margin-bottom: 30px;
+  animation: pulse 1.5s infinite;
+}
+
+.spinner {
+  border: 6px solid #e2e2e2;
+  border-top: 6px solid #f48024; /* StackOverflow orange */
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+}
+
+/* Spinner Animation */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Logo Pulse */
+@keyframes pulse {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.6;
+    transform: scale(1.05);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

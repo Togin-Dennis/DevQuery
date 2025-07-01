@@ -1,25 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React, { useContext } from 'react'
+import Home from './Home/Home'
+import './App.css'
+import Header from './Header/Header'
+import { BrowserRouter, Route, Routes } from 'react-router'
+import AskQN from './Ask/AskQN'
+import Signup from './aloginandsignup/signup/Signup'
+import Login from './aloginandsignup/login/Login'
+import { AuthContext } from './Firebase/uid'
+import Viewqn from './viewQN/viewqn'
+import Profile from './Profile/Profile'
+import Users from './Users/Users'
+import Viewuser from './Users/Viewuser/Viewuser'
+import { MyContext } from './Firebase/Globelvariable'
+import Loading from './Loading/Loading'
 function App() {
+  const { uid, user } = useContext(AuthContext);
+  const { Questiondata } = useContext(MyContext);
+   if (!Questiondata || Questiondata.length === 0) {
+    return <Loading />;
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+{ Questiondata?.length > 0 &&  <Header/>}
+   
+      
+    <Routes>
+      <Route path="/" element={<Home />} />
+      {uid && <Route path="/Ask" element={<AskQN />} />}
+      <Route path="/Signup" element={<Signup />} />
+      <Route path="/Login" element={<Login />} />
+      <Route path="/Viewqn" element={<Viewqn />} />
+      {uid && <Route path="/Profile" element={<Profile />} />}
+      <Route path="/Users" element={<Users />} />
+      <Route path="/Viewuser" element={<Viewuser />} />
+      
+    </Routes>
+  
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

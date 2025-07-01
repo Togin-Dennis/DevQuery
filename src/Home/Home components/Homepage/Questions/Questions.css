@@ -1,0 +1,14 @@
+.Questionsmaindiv
+{
+    margin-top: 30px;
+  
+    padding-bottom: 200px;
+}
+
+@media (max-width: 640px) {
+.Questionsmaindiv
+{
+    margin-top: 0px;
+    padding-bottom: 0px;
+}
+}

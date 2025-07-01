@@ -1,0 +1,164 @@
+.ViewQnmaindiv
+{
+    display: flex;
+    flex-direction: row;
+    margin-right: 140px;
+    margin-left: 132.5px;
+    height: 100vh;
+}
+.viewQuestionsection {
+  flex: 2.23;
+  width: 100%;
+  overflow-y: auto;
+  max-height: 100vh; 
+  padding: 25px;
+  color: hsl(180, 1%, 83%);
+  padding-bottom: 500px;
+}
+.viewQuestionsection::-webkit-scrollbar
+{
+    display: none;
+}
+.qnviewheading
+{
+  padding: 0;
+  margin: 0;
+  font-size: 27px;
+  font-weight: 400;
+  
+}
+.qnuserwrapper
+{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    border-bottom:  1px solid rgba(128, 128, 128, 0.336);
+}
+.qnviewAskedon
+{
+  padding: 0;
+  margin: 0;
+
+  font-size: 13px;
+}
+.qnviewdescription
+{
+ white-space: pre-wrap;
+}
+.qnviewcodediv
+{
+    background-color:  rgb(29, 27, 27);
+    padding: 15px;
+    border-radius: 5px;
+    overflow-x: auto;
+    scrollbar-color: rgb(144, 141, 141) rgb(60, 60, 60);
+    scrollbar-width: thin;
+     white-space: pre-wrap;
+    word-break: break-word;
+    max-width: 100%;
+}
+
+.qnviewcode
+{
+    color: white;
+    font-size: 13.5px;
+    line-height: 25px;
+        white-space: pre-wrap;
+    word-break: break-word;
+    
+}
+.dleteandtagdiv
+{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Deletebutton
+{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;  
+    height: min-content;
+    background-color:rgb(177, 47, 47) ;
+    color: rgb(255, 167, 167);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.Deletebutton:hover
+{
+     background-color:rgb(180, 8, 8) ;
+}
+.qnviewtagwrapper
+{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.qnviewTag
+{
+
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px; 
+    background-color: gray;
+    border-radius: 5px;
+    color: black;
+    font-weight: 500;
+}
+.userhover:hover
+{
+
+ color: rgb(112, 176, 250);
+}
+
+@media (max-width: 640px) {
+
+.ViewQnmaindiv
+{
+    display:block;
+    margin: 20px;
+    height: 100vh;
+    overflow-y: auto;
+
+}
+
+.ViewQnmaindiv::-webkit-scrollbar
+{
+    display: none;
+}
+.viewQuestionsection {
+
+  overflow-y: hidden;
+  max-height: none; 
+  height: max-content;
+  padding: 0px;
+  padding-bottom: 0px;
+ 
+}
+.qnviewheading
+{
+
+  font-size: 23px;
+
+}
+
+}
+@media (min-width: 641px) and (max-width: 1080px) {
+
+.ViewQnmaindiv
+{
+  
+    margin: 20px;
+    height: 100vh;
+  
+
+}
+
+}
