@@ -36,6 +36,8 @@
     grid-auto-rows: min-content;
     overflow-y: auto;
     scroll-behavior: smooth;
+    box-sizing: border-box;
+    padding-bottom: 300px;
 
 }
 .Userboxgrid::-webkit-scrollbar
