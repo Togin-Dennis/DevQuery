@@ -1,6 +1,6 @@
 <!-- Banner -->
 <p align="center">
-  <img src="https://your-banner-url.com/devquery-banner.png" alt="DevQuery" width="100%" />
+  <img src="https://github.com/Togin-Dennis/DevQuery/blob/main/src/assets/DevQuotesLogo.png?raw=true" alt="DevQuery" width="100%" />
 </p>
 
 <h1 align="center">
