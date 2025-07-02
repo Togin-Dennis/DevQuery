@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/DevQuery/static/css/main.e6de23d2.css",
-    "main.js": "/DevQuery/static/js/main.fe53feba.js",
+    "main.css": "/DevQuery/static/css/main.2b24308d.css",
+    "main.js": "/DevQuery/static/js/main.e7366d5e.js",
     "static/js/453.6f0cda30.chunk.js": "/DevQuery/static/js/453.6f0cda30.chunk.js",
     "static/media/SupportiveBudge.png": "/DevQuery/static/media/SupportiveBudge.4ef5f8d662d2cbc215bc.png",
     "static/media/QusestionBadge.png": "/DevQuery/static/media/QusestionBadge.bc3d2aea57f4de5fac4d.png",
     "static/media/DevQuotesLogo.png": "/DevQuery/static/media/DevQuotesLogo.c2cfef4fa3cb28c959ed.png",
     "static/media/DevQuotesLogoMobile.png": "/DevQuery/static/media/DevQuotesLogoMobile.b6670b1a22a7845ed3d3.png",
     "index.html": "/DevQuery/index.html",
-    "main.e6de23d2.css.map": "/DevQuery/static/css/main.e6de23d2.css.map",
-    "main.fe53feba.js.map": "/DevQuery/static/js/main.fe53feba.js.map",
+    "main.2b24308d.css.map": "/DevQuery/static/css/main.2b24308d.css.map",
+    "main.e7366d5e.js.map": "/DevQuery/static/js/main.e7366d5e.js.map",
     "453.6f0cda30.chunk.js.map": "/DevQuery/static/js/453.6f0cda30.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6de23d2.css",
-    "static/js/main.fe53feba.js"
+    "static/css/main.2b24308d.css",
+    "static/js/main.e7366d5e.js"
   ]
 }
