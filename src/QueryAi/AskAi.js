@@ -42,7 +42,7 @@ function AskAI() {
 
 
 
-<div className='Airesultsdiv'>
+
 <div className='Airesultsdiv'>
           {loading ? (
             <p>⏳ Thinking...</p>
@@ -78,7 +78,6 @@ function AskAI() {
 
 
 
-</div>
 
 
 

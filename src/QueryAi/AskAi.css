@@ -1,7 +1,6 @@
 .AskiAiMaindiv
 {
 display: flex;
-
 overflow: hidden;
 width: 100vw;
 }
@@ -22,6 +21,8 @@ width: 100vw;
     height: calc(100vh - 55px);
       
         box-sizing: border-box;
+        overflow: hidden;
+        
 }
 
 .AisearchInputwrapper
@@ -34,7 +35,7 @@ width: 100vw;
     width: 100%;
     box-sizing: border-box;
     gap: 20px;
- 
+
   
 }
 .Aisearchinput
@@ -89,26 +90,25 @@ cursor: pointer;
 
 .Airesultsdiv
 {
-padding: 20px;
+   padding: 20px;
    overflow-y: auto;
-   height: 100%;
- padding-bottom: 200px;
+   height: 100vh;
+   padding-bottom: 300px;
    user-select: text; /* ✅ allow selecting text */
   -webkit-user-select: text; /* Safari support */
   -moz-user-select: text; /* Firefox */
   -ms-user-select: text; /* Edge */
+   scrollbar-color: rgb(144, 141, 141) rgb(60, 60, 60);
+   scrollbar-width: thin;
+   box-sizing: border-box;
 }
-.Airesultsdiv::-webkit-scrollbar
-{
-display: none;
 
-}
 .TextCodedetectdiv
 {
 animation: codeboxanimation 0.2s ease-in  forwards ;
 font-size: 15px;
-    scrollbar-color: rgb(144, 141, 141) rgb(60, 60, 60);
-    scrollbar-width: thin;
+scrollbar-color: rgb(144, 141, 141) rgb(60, 60, 60);
+scrollbar-width: thin;
 }
 
 
@@ -138,6 +138,7 @@ font-size: 13px;
 .Airesultsdiv
 {
 padding: 10px;
+padding-bottom: 300px;
 }
 }
 
