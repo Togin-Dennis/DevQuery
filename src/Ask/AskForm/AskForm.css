@@ -87,6 +87,7 @@ width: 100%;
 .tagshow
 {
     display: flex;
+    flex-wrap: wrap;
 }
 .Tagbox
 {
