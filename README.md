@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+<!-- Banner -->
+<p align="center">
+  <img src="https://your-banner-url.com/devquery-banner.png" alt="DevQuery" width="100%" />
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+  <img src="https://github.com/Togin-Dennis/DevQuery/blob/main/src/assets/DevQuotesLogo.png?raw=true" width="80"/>
+  <br/>
+  <span style="color: #4ADE80;">DevQuery</span>
+</h1>
 
-## Available Scripts
+<h3 align="center">⚡ The Ultimate Q&A Hub for Developers</h3>
 
-In the project directory, you can run:
+<p align="center">
+  <img src="https://img.shields.io/github/stars/Togin-Dennis/DevQuery?color=FBBF24&style=for-the-badge" />
+  <img src="https://img.shields.io/github/forks/Togin-Dennis/DevQuery?color=60A5FA&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Contributions-Welcome-brightgreen?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Made%20with-❤️-red?style=for-the-badge" />
+</p>
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+> 💡 **DevQuery** is a sleek, modern, and community-driven Q&A platform where developers can ask technical questions, share knowledge, and level up together. Built with a passion for clean UI, fast UX, and robust Firebase-powered functionality.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🌟 Live Demo
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p align="center">
+  🔗 <a href="https://devquery.web.app" target="_blank"><b>devquery.web.app</b></a>
+</p>
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🖼️ Preview
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<p align="center">
+  <img src="https://your-preview-url.com/preview-light.gif" width="90%" alt="DevQuery Preview"/>
+</p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🔥 Features
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+✅ Ask and Answer Questions  
+🏷️ Tag-Based Categorization  
+📈 Reputation & Badge System  
+🔐 Firebase Auth (Email/Google Login)  
+🌈 Responsive, Mobile-Friendly Design  
+⚡ Instant Search Experience  
+🌍 Dark Mode Ready
+🤖 QueryAI 
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🛠️ Tech Stack
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+| Frontend      | Backend       | Database     | Extras        |
+|---------------|---------------|--------------|----------------|
+| ![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB) | ![Express](https://img.shields.io/badge/Express.js-404D59?logo=express&logoColor=white) | ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?logo=firebase&logoColor=white) | ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white) |
+| ![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white) | ![REST API](https://img.shields.io/badge/API-REST-ff69b4) | ![Firestore](https://img.shields.io/badge/Firestore-ffa000?logo=firebase&logoColor=white) | ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=github-actions&logoColor=white) |
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 🚀 Getting Started
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+# 1. Clone the repository
+git clone https://github.com/Togin-Dennis/DevQuery.git
+cd DevQuery
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# 2. Install dependencies
+npm install
+cd client && npm install
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# 3. Set up environment variables
+touch .env
