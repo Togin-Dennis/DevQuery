@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/DevQuery/static/css/main.d59419d4.css",
+    "main.css": "/DevQuery/static/css/main.e6de23d2.css",
     "main.js": "/DevQuery/static/js/main.fe53feba.js",
     "static/js/453.6f0cda30.chunk.js": "/DevQuery/static/js/453.6f0cda30.chunk.js",
     "static/media/SupportiveBudge.png": "/DevQuery/static/media/SupportiveBudge.4ef5f8d662d2cbc215bc.png",
@@ -8,12 +8,12 @@
     "static/media/DevQuotesLogo.png": "/DevQuery/static/media/DevQuotesLogo.c2cfef4fa3cb28c959ed.png",
     "static/media/DevQuotesLogoMobile.png": "/DevQuery/static/media/DevQuotesLogoMobile.b6670b1a22a7845ed3d3.png",
     "index.html": "/DevQuery/index.html",
-    "main.d59419d4.css.map": "/DevQuery/static/css/main.d59419d4.css.map",
+    "main.e6de23d2.css.map": "/DevQuery/static/css/main.e6de23d2.css.map",
     "main.fe53feba.js.map": "/DevQuery/static/js/main.fe53feba.js.map",
     "453.6f0cda30.chunk.js.map": "/DevQuery/static/js/453.6f0cda30.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d59419d4.css",
+    "static/css/main.e6de23d2.css",
     "static/js/main.fe53feba.js"
   ]
 }
