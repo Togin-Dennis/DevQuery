@@ -13,6 +13,10 @@ import Users from './Users/Users'
 import Viewuser from './Users/Viewuser/Viewuser'
 import { MyContext } from './Firebase/Globelvariable'
 import Loading from './Loading/Loading'
+import AskAI from './QueryAi/AskAi'
+
+
+
 function App() {
   const { uid, user } = useContext(AuthContext);
   const { Questiondata } = useContext(MyContext);
@@ -33,6 +37,7 @@ function App() {
       {uid && <Route path="/Profile" element={<Profile />} />}
       <Route path="/Users" element={<Users />} />
       <Route path="/Viewuser" element={<Viewuser />} />
+       <Route path="/QueryAi" element={<AskAI />} />
       
     </Routes>
   

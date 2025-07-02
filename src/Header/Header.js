@@ -82,8 +82,12 @@ useEffect(()=>{
               navigate('/Users')}}
             >Users</button>
             <button className='HeaderButtons'  
-            onClick={()=>{window.open("https://example.com", "_blank");}}
-            >Source Code</button>
+            onClick={()=>{
+              setSidebarselected('AI')
+              navigate('/QueryAi')
+              
+            }}
+            >QueryAI</button>
 
 
 

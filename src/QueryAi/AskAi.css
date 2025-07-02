@@ -1,0 +1,158 @@
+.AskiAiMaindiv
+{
+display: flex;
+
+overflow: hidden;
+width: 100vw;
+}
+.sidebarai
+{
+  padding-left: min(132.5px, calc((100vw - 1080px) / 2 + 20px));
+  box-sizing: border-box;
+   flex: 0.56;
+}
+.QueryAidiv
+{
+     flex: 4.3;
+     width: 100%;
+}
+.QueryAidiv
+{
+    position: relative;
+    height: calc(100vh - 55px);
+      
+        box-sizing: border-box;
+}
+
+.AisearchInputwrapper
+{
+    bottom: 50px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+    gap: 20px;
+ 
+  
+}
+.Aisearchinput
+{
+    
+    width: 60%;
+    background-image: url('https://icons.veryicon.com/png/o/miscellaneous/light-e-treasure-3/search-286.png'); /* or Font Awesome SVG URL */
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-size: 25px;
+    background-color: hsl(210, 2%, 19%);
+    min-height: 60px;
+    max-height: 240px;
+    padding: 15px;
+    padding-left: 40px;
+    color: hsl(200, 2%, 69%);
+    box-sizing: border-box;
+    border: none;
+    border-radius: 10px;
+    resize: none; /* disables resizing */
+    overflow: auto;
+    font-size: 16px;
+}
+.Aisearchinput::-webkit-scrollbar
+{
+     display: none;
+}
+.Aisearchinput::placeholder
+{
+color: hsl(200, 2%, 69%);
+font-size: 16px;
+
+}
+.Aisearchinput:focus
+{
+   outline: none;
+}
+
+.SendIcon
+{
+
+padding-right: 10px;
+width: 30px;
+min-height: 60px;
+max-height: 240px;
+color: rgb(164, 161, 161);
+cursor: pointer;
+}
+.SendIcon:hover{
+    color: rgb(85, 114, 139); 
+}
+
+.Airesultsdiv
+{
+padding: 20px;
+   overflow-y: auto;
+   height: 100%;
+ padding-bottom: 200px;
+   user-select: text; /* ✅ allow selecting text */
+  -webkit-user-select: text; /* Safari support */
+  -moz-user-select: text; /* Firefox */
+  -ms-user-select: text; /* Edge */
+}
+.Airesultsdiv::-webkit-scrollbar
+{
+display: none;
+
+}
+.TextCodedetectdiv
+{
+animation: codeboxanimation 0.2s ease-in  forwards ;
+font-size: 15px;
+    scrollbar-color: rgb(144, 141, 141) rgb(60, 60, 60);
+    scrollbar-width: thin;
+}
+
+
+
+@keyframes codeboxanimation {
+     
+0%{opacity: 0;}
+
+100%{opacity: 1;}
+
+}
+
+
+@media (max-width: 640px) {
+
+.AskiAiMaindiv
+{
+display: block;
+
+}
+.TextCodedetectdiv
+{
+animation: codeboxanimation 0.2s ease-in  forwards ;
+font-size: 13px;
+}
+
+.Airesultsdiv
+{
+padding: 10px;
+}
+}
+
+
+@media (min-width: 641px) and (max-width: 1080px) {
+
+.sidebarai
+{
+padding: 0;
+padding-left: 20px;
+
+}
+.QueryAidiv
+{
+     flex: 2.79;
+     width: 100%;
+}
+}

@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { FaBookmark, FaCode, FaHome, FaQuestion, FaTags, FaUser, FaUsers } from 'react-icons/fa'
+import { FaBookmark, FaCode, FaHome, FaQuestion, FaRobot, FaTags, FaUser, FaUsers } from 'react-icons/fa'
 import './Sidebar.css'
 import { MdEmail, MdOutlineQuestionAnswer, MdTag } from 'react-icons/md'
 import { useNavigate } from 'react-router'
@@ -40,6 +40,20 @@ navigate('/Login')
          <FaUser  size={15}/>
          <p className='siderbarpagename'>Profile</p>
      </div>
+     
+
+
+       <div className={Sidebarselected=='AI'?'sidebarpages sidebarselected':'sidebarpages'}  onClick={
+    uid?()=>{navigate('/QueryAi')
+         setSidebarselected('AI')
+
+   }:()=>{
+navigate('/Login')
+        
+   }}>
+         <FaRobot  size={15}/>
+         <p className='siderbarpagename'>QueryAI</p>
+     </div>
 
 
   <div className='sidebarpages'  onClick={()=>{uid?navigate('/Ask'):navigate('/Login')}}>
@@ -52,7 +66,7 @@ navigate('/Login')
      <div className='sidebarpages'
      onClick={()=>{
 
-        window.open("https://example.com", "_blank");}}
+        window.open("https://github.com/Togin-Dennis/DevQuery", "_blank");}}
      >
          <FaCode size={17}/>
          <p className='siderbarpagename'>Code</p>

@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { FaBookmark, FaCode, FaHome, FaQuestion, FaTags, FaUser, FaUsers } from 'react-icons/fa'
+import { FaBookmark, FaCode, FaHome, FaQuestion, FaRobot, FaTags, FaUser, FaUsers } from 'react-icons/fa'
 import { MdEmail, MdOutlineQuestionAnswer, MdTag } from 'react-icons/md'
 import { useNavigate } from 'react-router'
 import { AuthContext } from '../../Firebase/uid'
@@ -43,6 +43,18 @@ navigate('/Login')
          <p className='siderbarpagename'>Profile</p>
      </div>
 
+
+   <div className={Sidebarselected=='AI'?'sidebarpages sidebarselected':'sidebarpages'}  onClick={
+    uid?()=>{navigate('/QueryAi')
+         setSidebarselected('AI')
+setMenushow(false)
+   }:()=>{
+navigate('/Login')
+        
+   }}>
+         <FaRobot  size={15}/>
+         <p className='siderbarpagename'>QueryAI</p>
+     </div>
 
   <div className={Sidebarselected=='Ask'?'sidebarpages sidebarselected':'sidebarpages'}  onClick={uid?()=>{navigate('/Ask')
      setMenushow(false)
