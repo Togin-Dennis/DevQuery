@@ -61,20 +61,7 @@
 
 ---
 
-## 📁 Project Structure
 
-```
-DevQuery/
-├── client/         # React frontend
-│   ├── components/
-│   ├── pages/
-│   └── assets/
-├── server/         # Express backend
-├── .env            # Environment configuration
-└── README.md
-```
-
----
 
 ## 🛠️ Setup Instructions
 
@@ -88,17 +75,12 @@ cd DevQuery
 ### 2️⃣ Install Dependencies
 
 ```bash
-# Install backend dependencies
-npm install
-
-# Install frontend dependencies
-cd client
 npm install
 ```
 
 ### 3️⃣ Configure Environment
 
-Create a `.env` file in the root folder with the following variables:
+Create a `.env` file in the root folder with the following:
 
 ```env
 REACT_APP_FIREBASE_API_KEY=your_api_key
@@ -116,28 +98,23 @@ REACT_APP_BACKEND_URL=http://localhost:5000
 ## ▶️ Running Locally
 
 ```bash
-# Start backend
-npm run server
-
-# Start frontend
-cd client
-npm start
+npm run dev
 ```
 
-📍 Open your browser at [http://localhost:3000](http://localhost:3000)
+📍 Visit: [http://localhost:3000](http://localhost:3000)
 
 ---
 
 ## 🏅 Badge System
 
-| Badge Name        | Description                              |
-|-------------------|------------------------------------------|
-| 🟢 Fresh Voice       | First question asked                     |
-| 💡 Helping Hand      | First answer submitted                   |
-| 🔥 Guiding Voice     | Answered 10+ questions                   |
-| 💎 Level-Up Asker    | Asked 10+ questions                     |
-| 🧠 Knowledge Beacon  | Answered 20+ questions                   |
-| 🧠 The Grand Asker   | Asked 20+ questions                     |
+| Badge Name         | Description                            |
+|--------------------|----------------------------------------|
+| 🟢 Fresh Voice      | First question asked                   |
+| 💡 Helping Hand     | First answer submitted                 |
+| 🔥 Guiding Voice    | Answered 10+ questions                 |
+| 💎 Level-Up Asker   | Asked 10+ questions                    |
+| 🧠 Knowledge Beacon | Answered 20+ questions                 |
+| 🧠 The Grand Asker  | Asked 20+ questions                    |
 
 ---
 
@@ -148,7 +125,7 @@ npm start
 - [x] Tags & Filters
 - [x] Dark Mode
 - [x] QueryAI 🤖
-- [x] Badge + XP
+- [x] Badge + XP System
 - [ ] Leaderboard & User Stats
 - [ ] Notification System
 - [ ] Bookmarking
@@ -166,7 +143,7 @@ Contributions are always welcome! ❤️
 # Push to GitHub and create a PR
 ```
 
-Check [CONTRIBUTING.md](./CONTRIBUTING.md) for full instructions.
+Check [CONTRIBUTING.md](./CONTRIBUTING.md) for full guidelines.
 
 ---
 
