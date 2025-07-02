@@ -132,20 +132,6 @@ npm run dev
 
 ---
 
-## 🤝 Contributing
-
-Contributions are always welcome! ❤️
-
-```bash
-# Fork the repo
-# Create your branch: git checkout -b feature-name
-# Commit your changes
-# Push to GitHub and create a PR
-```
-
-Check [CONTRIBUTING.md](./CONTRIBUTING.md) for full guidelines.
-
----
 
 ## 📜 License
 
@@ -168,7 +154,7 @@ This project is licensed under the MIT License. See the [LICENSE](./LICENSE) fil
 ---
 
 <p align="center">
-  ⭐ Star this repo • 🍴 Fork it • 🔧 Improve it  
+  ⭐ Star this repo • 🍴 Give Suggessions • 🔧 Improve it  
   <br/><br/>
   💡 DevQuery — Built for Developers. Designed for Clarity.
 </p>
